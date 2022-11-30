@@ -14,3 +14,18 @@ margin: 50px;
 top: 10px; 
 font-size: 6vh; 
 }
+
+.body {
+font-family: kepler-std-display, serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.emphasis {
+font-size: 4vh; 
+}
+
+.name {
+position: absolute; 
+bottom: 10px; 
+}

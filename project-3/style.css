@@ -1,0 +1,16 @@
+.font {
+font-family: kepler-std-display, serif;
+font-weight: 900;
+font-style: normal;
+color: #91251d; 
+}
+
+html {
+background-color: #eadec8;
+margin: 50px;
+}
+
+.title {
+top: 10px; 
+font-size: 6vh; 
+}

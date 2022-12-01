@@ -33,18 +33,18 @@ font-size: 3vh;
 .food {
 position: absolute; 
 bottom: 370px; 
-left: 560px; 
+left: 865px; 
 }
 
 .ethnic {
 position: absolute; 
-left: 560px; 
+left: 765px; 
 bottom: 270px; 
 }
 
 .language {
 position: absolute; 
-left: 560px; 
+left: 770px; 
 bottom: 170px; 
 }
 
@@ -79,42 +79,44 @@ font-style: normal;
 font-size: 1.5vh; 
 position: absolute; 
 top: 350px;
-left: 120px; 
+left: 1080px; 
 color: #eadec8; 
+text-align: right; 
 }
 
 .square1 {
 position: absolute; 
 top: 150px; 
-right: 525px; 
+left: 600px; 
 }
 
 .button1 {
 position: absolute; 
 top: 325px; 
-right: 705px; 
+right: 500px; 
 }
 
 .button2 {
 position: absolute; 
 top: 425px; 
-right: 705px; 
+right: 500px; 
 }
 
 .button3 {
 position: absolute; 
 top: 525px; 
-right: 705px; 
+right: 500px; 
 }
 
 .navig {
 position: absolute; 
 top: 330px; 
-left: 550px; 
+left: 810px;    
 }
 
 .submitbox {
 position: absolute; 
 top: 370px; 
-right: 250px; 
+right: 100px; 
+text-align: right; 
 }

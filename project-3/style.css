@@ -111,4 +111,10 @@ right: 705px;
 position: absolute; 
 top: 330px; 
 left: 550px; 
+}
 
+.submitbox {
+position: absolute; 
+top: 330px; 
+right: 100px; 
+}

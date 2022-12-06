@@ -1,10 +1,15 @@
+@font-face {
+src: url(assets/wamsoo.ttf); 
+font-family: wamsoo; 
+}
+
 .links {
     display: flex;
     flex-direction: column;
 }
 
 a {
-    font-size: 24px;
+    font-size: 3vw;
     color: #eadec8;
     text-decoration: none;
     background-color: #91251d;
@@ -43,14 +48,14 @@ a:active {
 */
 
 .font {
-    font-family: kepler-std-display, serif;
+    font-family: wamsoo, serif;
     font-weight: 900;
     font-style: normal;
     color: #91251d;  
 }
 
 .font2 {
-    font-family: kepler-std-display, serif;
+    font-family: wamsoo, serif;
     font-weight: 900;
     font-style: normal;
     color: #91251d;
@@ -63,7 +68,7 @@ html {
 }
 
 .title {
-    font-size: 80px;;  
+    font-size: 10vw;  
     display: flex;
 }
 
@@ -75,14 +80,14 @@ html {
 }
 
 .emphasis {
-    font-size: 4vh;
+    font-size: 6vh;
 }
 
 .name {
     width: 55px;
     height: 71px;
-    margin-top:100px;
-    margin-left:-110px;
+    margin-top:160px;
+    margin-left:-170px;
 }
 
 .hrefsize {
@@ -114,12 +119,12 @@ html {
 }
 
 .text1 {
-    font-family: kepler-std-display, serif;
+    font-family: wamsoo, serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 1.5vh;
+    font-size: 3vh;
     position: absolute;
-    top: 300px;
+    top: 195px;
     left: 66vw;
     padding: 20px;
     color: #eadec8;
@@ -130,7 +135,7 @@ html {
 }
 
 .text2 {
-    font-family: kepler-std-display, serif;
+    font-family: wamsoo, serif;
     font-weight: 900;
     font-style: normal;
     font-size: 1.5vh;
@@ -146,7 +151,7 @@ html {
 }
 
 .text3 {
-    font-family: kepler-std-display, serif;
+    font-family: wamsoo, serif;
     font-weight: 900;
     font-style: normal;
     font-size: 1.5vh;
@@ -158,6 +163,7 @@ html {
     text-align: center;
     background-color: #eadec8;
     border-radius: 20px;
+    border: 5px solid #91251d;
 }
 
 .square1 {
@@ -168,8 +174,10 @@ html {
 
 .navig {
     position: absolute;
-    top: 425px;
+    top: 320px;
     left: 40vw;
+    font-family: wamsoo, serif; 
+    font-size: 3vw; 
     ;
 }
 

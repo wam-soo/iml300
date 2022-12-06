@@ -1,146 +1,179 @@
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    font-size: 24px;
+    color: #eadec8;
+    text-decoration: none;
+    background-color: #91251d;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*
+a:link {
+    color: #91251d;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #91251d;
+    background-color: transparent;
+    text-decoration: none;
+}
+*/
+
+a:hover {
+    color: #91251d;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 500; 
+}
+
+/*
+a:active {
+    color: #91251d;
+    background-color: transparent;
+    text-decoration: none;
+}
+*/
+
 .font {
-font-family: kepler-std-display, serif;
-font-weight: 900;
-font-style: normal;
-color: #91251d; 
+    font-family: kepler-std-display, serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #91251d;  
+}
+
+.font2 {
+    font-family: kepler-std-display, serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #91251d;
+    text-align: right; 
 }
 
 html {
-background-color: #eadec8;
-margin: 100px;
+    background-color: #eadec8;
+    margin: 100px;
 }
 
 .title {
-position: absolute; 
-top: 10px; 
-font-size: 6vh; 
+    font-size: 80px;;  
+    display: flex;
 }
 
 .emphasis {
-font-size: 4vh; 
+    font-size: 4vh;
 }
 
 .name {
-position: absolute; 
-top: 220px; 
-right: 580px; 
+    width: 55px;
+    height: 71px;
+    margin-top:100px;
+    margin-left:-110px;
 }
 
 .hrefsize {
-font-size: 3vh; 
-}
-
-.food {
-position: absolute; 
-bottom: 370px; 
-left: 865px; 
-}
-
-.ethnic {
-position: absolute; 
-left: 765px; 
-bottom: 270px; 
-}
-
-.language {
-position: absolute; 
-left: 770px; 
-bottom: 170px; 
+    font-size: 3vh;
 }
 
 .border {
-position: absolute; 
-left: 0px; 
-top: 0px; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 .border2 {
-position: absolute; 
-right: 0px; 
-top: 0px; 
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
 .border3 {
-position: absolute; 
-right: 70px; 
-top: 0px; 
+    position: absolute;
+    right: 70px;
+    top: 0px;
 }
 
 .border4 {
-position: absolute; 
-right: 70px; 
-bottom: 0px; 
+    position: absolute;
+    right: 70px;
+    bottom: 0px;
 }
 
 .text1 {
-font-family: kepler-std-display, serif;
-font-weight: 900;
-font-style: normal;
-font-size: 1.5vh; 
-position: absolute; 
-top: 350px;
-left: 1080px; 
-color: #eadec8; 
-text-align: right; 
+    font-family: kepler-std-display, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5vh;
+    position: absolute;
+    top: 300px;
+    left: 66vw;
+    padding: 20px;
+    color: #eadec8;
+    text-align: right;
+    background-color: #91251d;
+    border-radius: 20px;
+
 }
 
 .square1 {
-position: absolute; 
-top: 150px; 
-left: 600px; 
-}
-
-.button1 {
-position: absolute; 
-top: 325px; 
-right: 500px; 
-}
-
-.button2 {
-position: absolute; 
-top: 425px; 
-right: 500px; 
-}
-
-.button3 {
-position: absolute; 
-top: 525px; 
-right: 500px; 
+    position: absolute;
+    top: 150px;
+    left: 600px;
 }
 
 .navig {
-position: absolute; 
-top: 330px; 
-left: 810px;    
+    position: absolute;
+    top: 425px;
+    left: 40vw;
+    ;
 }
 
 .submitbox {
-position: absolute; 
-top: 370px; 
-right: 100px; 
-text-align: right; 
+    position: absolute;
+    top: 370px;
+    right: 100px;
+    text-align: right;
 }
 
 .bgs {
-position: absolute; 
-bottom: 310px; 
-left: 500px; 
+    position: absolute;
+    bottom: 310px;
+    left: 500px;
 }
 
 .bgsk {
-position: absolute; 
-bottom: 130px; 
-left: 250px; 
+    position: absolute;
+    bottom: 130px;
+    left: 250px;
 }
 
 .fam1 {
-position: absolute; 
-bottom: 310px; 
-left: 250px; 
+    position: absolute;
+    bottom: 310px;
+    left: 250px;
 }
 
 .fam2 {
-position: absolute; 
-bottom: 130px; 
-left: 500px; 
+    position: absolute;
+    bottom: 130px;
+    left: 500px;
+}
+
+.scrolltext{
+    font-size:40px;
+    z-index:-1;
+    color: #91251d;
+    position:absolute;
+    top:65px;
+    left:70px;
+    right: 70px; 
+    line-height:2;
+    opacity: .3; 
 }

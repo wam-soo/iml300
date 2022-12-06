@@ -67,6 +67,13 @@ html {
     display: flex;
 }
 
+.title2 {
+    position: absolute; 
+    font-size: 50px;;  
+    display: flex;
+    top: 1vw; 
+}
+
 .emphasis {
     font-size: 4vh;
 }
@@ -120,6 +127,37 @@ html {
     background-color: #91251d;
     border-radius: 20px;
 
+}
+
+.text2 {
+    font-family: kepler-std-display, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5vh;
+    position: absolute;
+    top: 250px;
+    left: 7vw;
+    padding: 20px;
+    color: #eadec8;
+    text-align: left;
+    background-color: #91251d;
+    border-radius: 20px;
+
+}
+
+.text3 {
+    font-family: kepler-std-display, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5vh;
+    position: absolute;
+    top: 1px;
+    left: 35vw;
+    padding: 20px;
+    color: #91251d;
+    text-align: center;
+    background-color: #eadec8;
+    border-radius: 20px;
 }
 
 .square1 {

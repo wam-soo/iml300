@@ -290,16 +290,56 @@ html {
     border-radius: 20px;
 }
 
+.text12 {
+    font-family: wamsoo, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.7vh;
+    position: absolute;
+    top: 200px;
+    left: 64vw;
+    width: 400px;
+    height: 525px; 
+    padding: 20px;
+    color: #eadec8;
+    text-align: right;
+    background-color: #91251d;
+    border-radius: 20px;
+}
+
+.text13 {
+    font-family: wamsoo, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3vh;
+    position: absolute;
+    top: 200px;
+    left: 7vw;
+    padding: 20px;
+    color: #eadec8;
+    text-align: left;
+    background-color: #91251d;
+    border-radius: 20px;
+}
+
 .homebutton {
     position: absolute; 
     right: 600px; 
-    bottom: 10px; 
+    bottom: 10px;
+    font-family: wamsoo, serif; 
 }
 
 .homebutton2 {
     position: absolute; 
     right: 600px; 
     bottom: 10px; 
+}
+
+.homebutton3 {
+    position: absolute; 
+    right: 720px; 
+    bottom: 120px;
+    font-family: wamsoo, serif; 
 }
 
 .square1 {

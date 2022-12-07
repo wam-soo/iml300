@@ -88,6 +88,14 @@ html {
     left: 33vw; 
 }
 
+.title4 {
+    position: absolute; 
+    font-size: 5vw;  
+    display: flex;
+    bottom: 38vw;
+    left: 20vw; 
+}
+
 .emphasis {
     font-size: 6vh;
 }
@@ -231,7 +239,64 @@ html {
     border-radius: 20px;
 }
 
+.text9 {
+    font-family: wamsoo, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.7vh;
+    position: absolute;
+    top: 200px;
+    right: 33vw;
+    height: 160px; 
+    width: 450px; 
+    padding: 10px;
+    color: #eadec8;
+    text-align: center;
+    background-color: #91251d;
+    border-radius: 20px;
+}
+
+.text10 {
+    font-family: wamsoo, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.7vh;
+    position: absolute;
+    top: 320px;
+    right: 35vw;
+    height: 210px; 
+    width: 350px; 
+    padding: 10px;
+    color: #eadec8;
+    text-align: center;
+    background-color: #91251d;
+    border-radius: 20px;
+}
+
+.text11 {
+    font-family: wamsoo, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.7vh;
+    position: absolute;
+    top: .5vw;
+    left: 61vw;
+    height: 210px; 
+    width: 350px; 
+    padding: 10px;
+    color: #eadec8;
+    text-align: center;
+    background-color: #91251d;
+    border-radius: 20px;
+}
+
 .homebutton {
+    position: absolute; 
+    right: 600px; 
+    bottom: 10px; 
+}
+
+.homebutton2 {
     position: absolute; 
     right: 600px; 
     bottom: 10px; 
@@ -317,4 +382,20 @@ html {
     height: 385px;
     right: 50px;
     bottom: 300px; 
+}
+
+.nose {
+    position: absolute;
+    width: 400px; 
+    height: 308px; 
+    right: 825px; 
+    bottom: 600px; 
+}
+
+.eye {
+    position: absolute;
+    width: 400px; 
+    height: 308px; 
+    right: 765px; 
+    bottom: 320px; 
 }

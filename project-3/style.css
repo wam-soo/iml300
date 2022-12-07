@@ -80,6 +80,14 @@ html {
     left: 25vw; 
 }
 
+.title3 {
+    position: absolute; 
+    font-size: 6vw;  
+    display: flex;
+    bottom: 36vw;
+    left: 25vw; 
+}
+
 .emphasis {
     font-size: 6vh;
 }
@@ -279,10 +287,26 @@ html {
     font-size:40px;
     z-index:-1;
     color: #91251d;
-    position:absolute;
-    top:65px;
-    left:70px;
+    position: absolute;
+    top: 65px;
+    left: 70px;
     right: 70px; 
     line-height:2;
     opacity: .3; 
+}
+
+.lbg {
+    position: absolute;
+    width: 500px;  
+    height: 385px;
+    left: 50px;
+    bottom: 300px; 
+}
+
+.cf {
+    position: absolute; 
+    width: 600px; 
+    height: 462px; 
+    left: 500px; 
+    bottom: 60px; 
 }

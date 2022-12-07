@@ -85,7 +85,7 @@ html {
     font-size: 6vw;  
     display: flex;
     bottom: 36vw;
-    left: 25vw; 
+    left: 33vw; 
 }
 
 .emphasis {
@@ -307,6 +307,14 @@ html {
     position: absolute; 
     width: 600px; 
     height: 462px; 
-    left: 500px; 
+    left: 450px; 
     bottom: 60px; 
+}
+
+.jz {
+    position: absolute;
+    width: 500px;  
+    height: 385px;
+    right: 50px;
+    bottom: 300px; 
 }
